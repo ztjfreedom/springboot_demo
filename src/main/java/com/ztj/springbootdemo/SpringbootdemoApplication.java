@@ -1,15 +1,13 @@
 package com.ztj.springbootdemo;
 
-import com.ztj.springbootdemo.entity.DBProperties;
-import com.ztj.springbootdemo.entity.SitesProperties;
-import com.ztj.springbootdemo.event.CommandLineRunnerListener;
+import com.ztj.springbootdemo.properties.DBProperties;
+import com.ztj.springbootdemo.properties.SitesProperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.bind.Bindable;
 import org.springframework.boot.context.properties.bind.Binder;
 import org.springframework.context.ApplicationContext;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 @SpringBootApplication

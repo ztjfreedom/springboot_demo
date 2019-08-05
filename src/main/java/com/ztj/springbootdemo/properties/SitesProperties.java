@@ -1,4 +1,4 @@
-package com.ztj.springbootdemo.entity;
+package com.ztj.springbootdemo.properties;
 
 import lombok.Data;
 

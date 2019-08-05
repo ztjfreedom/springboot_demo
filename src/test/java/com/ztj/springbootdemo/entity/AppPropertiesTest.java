@@ -1,5 +1,6 @@
 package com.ztj.springbootdemo.entity;
 
+import com.ztj.springbootdemo.properties.AppProperties;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
