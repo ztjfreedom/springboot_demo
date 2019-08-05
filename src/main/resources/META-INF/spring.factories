@@ -1,0 +1,14 @@
+# Start event order:
+#   ApplicationStartingEvent
+#   ApplicationEnvironmentPreparedEvent
+#   ApplicationPreparedEvent
+#   ApplicationStartedEvent <= Spring Boot 2.0 new
+#   command-line runners
+#   ApplicationReadyEvent
+#   ApplicationFailedEvent
+org.springframework.context.ApplicationListener=com.ztj.springbootdemo.event.ApplicationStartingEventListener,\
+  com.ztj.springbootdemo.event.ApplicationEnvironmentPreparedEventListener,\
+  com.ztj.springbootdemo.event.ApplicationPreparedEventListener,\
+  com.ztj.springbootdemo.event.ApplicationStartedEventListener,\
+  com.ztj.springbootdemo.event.ApplicationReadyEventListener,\
+  com.ztj.springbootdemo.event.ApplicationFailedEventListener
