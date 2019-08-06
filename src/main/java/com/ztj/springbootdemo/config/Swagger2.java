@@ -1,4 +1,4 @@
-package com.ztj.springbootdemo;
+package com.ztj.springbootdemo.config;
 
 import com.ztj.springbootdemo.properties.AppProperties;
 import org.springframework.context.annotation.Bean;
